@@ -1,0 +1,49 @@
+#top{
+    background-color: lightblue;
+    color: white;
+    width: 90%;
+    margin-left: 1%;
+    
+    
+}
+h1{
+    text-align: center;
+}
+form{
+    display:inline;
+}
+#top input[type="text"]{
+    width:60%;
+    padding:10px;
+    margin: 15px;
+    display: inline;
+}
+#top button{
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 15px;
+    width:25%;
+    display: inline;
+    
+}
+p{
+    display: inline-block;
+    font-size: 1.8rem;
+}
+.btn-close{
+    float: right;
+}
+button{
+    display: inline-block;
+}
+#main span{
+    display: block;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: gray;
+    border: 2px solid black ;
+    width: 60%;
+    margin-top: 0%;
+    margin-bottom: 8px;
+    padding: 10px;
+}

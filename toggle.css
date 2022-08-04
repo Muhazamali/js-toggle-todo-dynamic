@@ -1,0 +1,28 @@
+#cont{
+    width:100px;
+    border-radius:18px;
+    background-color: gray;
+    display: block;
+    height:40px;
+    position: relative;
+    overflow: hidden;
+}
+span i{
+    position: absolute;
+    font-size: 34px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.active{
+    left:60px;
+    transform:translateX(60px);
+    transition: transform 2s;
+
+}
+#ico{
+    animation-delay:2s;
+}
+.main{
+    margin-left: 5%;
+    margin-top: 5%;
+}
